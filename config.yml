@@ -1,0 +1,20 @@
+title: public-speaking-part-one
+tagline: A brand new course on Learning Lab
+description: >-
+  In this course, we'll take a look at examples of what makes a good
+  presenter,and use these examples to show what small changes you can make to
+  your presenting style to stand out from the crowd.
+template:
+  repo: public-speaking-part-one-template
+  name: public-speaking-part-one
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
