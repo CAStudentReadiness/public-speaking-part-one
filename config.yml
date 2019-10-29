@@ -1,5 +1,5 @@
-title: public-speaking-part-one
-tagline: A brand new course on Learning Lab
+title: 'Public Speaking: Part 1'
+tagline: What makes a good public speaker?
 description: >-
   In this course, we'll take a look at examples of what makes a good
   presenter,and use these examples to show what small changes you can make to
@@ -7,6 +7,10 @@ description: >-
 template:
   repo: public-speaking-part-one-template
   name: public-speaking-part-one
+  description: >-
+    In this course, we'll take a look at examples of what makes a good
+    presenter,and use these examples to show what small changes you can make to
+    your presenting style to stand out from the crowd.
 before:
   - type: createIssue
     title: Welcome!
